@@ -1,0 +1,639 @@
+BookorRent - Change Log
+
+BookorRent - v1.0b1 (Released 2014-05-22)
+===========================================
+
+First beta version released on May 22nd, 2014
+
+
+BookorRent - v1.0a17 (Released 2014-05-22) [ View Issues ] 
+=======================================================
+
+Seventeenth alpha version released on May 22nd, 2014
+
+- 0176262: [Bug PHP] [QA] - Added image are not showing at first time after reloading the same page then image get showing (mohanraj_109at09) - resolved.
+- 0176265: [Bug PHP] [QA] - Edit Listing page uploader is not working (mohanraj_109at09) - resolved.
+- 0176267: [Bug PHP] [QA][Admin] - In admin add listing page, choose file option also present (mohanraj_109at09) - resolved.
+- 0176271: [Bug PHP] [QA] - Error message should maximum file size exceeded (mohanraj_109at09) - resolved.
+- 0176273: [Bug PHP] [QA] - In listing is not showing with the as per distance (mohanraj_109at09) - resolved.
+- 0173327: [Bug PHP] [QA][Admin] - New category add, cannot able to add listing before core fields are missing (mohanraj_109at09) - resolved.
+- 0173425: [Bug PHP] [QA][Admin] - Category add redirect to error page (mohanraj_109at09) - resolved.
+- 0173427: [Bug PHP] [QA][Admin] - Form field add redirect to error page in category form fields page (mohanraj_109at09) - resolved.
+- 0174065: [Bug PHP] [QA] - In country field please select option should present in edit profile (mohanraj_109at09) - resolved.
+- 0174066: [Bug PHP] [QA] - User update the profile then user account deactivated mail delivered to the user (mohanraj_109at09) - resolved.
+- 0174071: [Bug PHP] [QA] - Search with categories or social network is not working showing script error (mohanraj_109at09) - resolved.
+- 0175616: [Bug PHP] [QA] - Normal register as user redirect to database error page (mohanraj_109at09) - resolved.
+- 0176053: [Bug PHP] [QA] - Request add redirect to error page (mohanraj_109at09) - resolved.
+- 0176055: [Bug PHP] [QA] - Listing booking redirect to error page (mohanraj_109at09) - resolved.
+- 0176063: [Bug PHP] [QA] - Disabled category are showing in the parent category view page (mohanraj_109at09) - resolved.
+- 0176081: [Bug PHP] [QA][Admin] - Category delete redirect to internal error page and delete through more action redirect to internal error page (mohanraj_109at09) - resolved.
+[16 issues]
+
+BookorRent - v1.0a16 (Released 2014-01-21) [ View Issues ] 
+=======================================================
+
+Sixteenth alpha version released on Jan 21st, 2014
+
+- 0173311: [Bug PHP] [QA] - Added with xss script in listing add page redirection is not proper (mohanraj_109at09) - resolved.
+- 0173346: [Bug PHP] [QA] - In request added message to host information message is delivered to the request user not delivered to the host (mohanraj_109at09) - resolved.
+- 0173347: [Bug PHP] [QA] - Booking request record is not get showing in calendar (mohanraj_109at09) - resolved.
+- 0173362: [Bug PHP] [QA] - Without uploading image file cannot able to update the listing (mohanraj_109at09) - resolved.
+- 0173360: [Bug PHP] [QA] - Update the listing with new event is added redirect to error page (mohanraj_109at09) - resolved.
+- 0173349: [Bug PHP] [QA] - New event get added in host calendar, then in listing calendar view event available dates are not showing (mohanraj_109at09) - resolved.
+- 0173290: [Bug CSS] [QA] - Responsive issues (meganathan_203ac11) - resolved.
+- 0173325: [Bug PHP] [QA] - New category form field is added page style is broken in add listing page (mohanraj_109at09) - resolved.
+- 0173350: [Bug PHP] [QA] - Edit listing page style is broken (mohanraj_109at09) - resolved.
+- 0173345: [Bug PHP] [QA] - More link is not working in booking layer (mohanraj_109at09) - resolved.
+- 0173348: [Bug CSS] [QA] - Not available legend color getting varying in calendar (mohanraj_109at09) - resolved.
+- 0173324: [Bug PHP] [QA] - Stripe connect is not working (amala_187at12) - resolved.
+- 0173342: [Bug PHP] [QA] - In payout stripe option is cancelled redirection is not proper (amala_187at12) - resolved.
+- 0173344: [Bug PHP] [QA] - Editing item redirect to error page (mohanraj_109at09) - resolved.
+- 0173281: [Bug PHP] [QA] - Affiliate referral registration redirect to gateway timeout error (amala_187at12) - resolved.
+- 0173328: [Bug PHP] [QA] - Enable listing on/off is not working in host panel (meganathan_203ac11) - resolved.
+- 0173300: [Bug PHP] [QA] - After confirming the booking, authorized amount is not get captured in sudopay sandbox (meganathan_203ac11) - resolved.
+- 0173318: [Bug PHP] [QA][Admin] - Add step unnecessary fields are present (meganathan_203ac11) - resolved.
+- 0173321: [Bug PHP] [QA] - After adding the listing without connect to payment gateway redirect to error page (meganathan_203ac11) - resolved.
+- 0173323: [Bug PHP] [QA] - Buyer detail is field values are showing multiple time (meganathan_203ac11) - resolved.
+- 0173326: [Bug PHP] [QA][Admin] - Category type option should present only for parent category (meganathan_203ac11) - resolved.
+- 0173329: [Bug PHP] [QA] - Site is Changed to prelaunch mode, site redirect to error page (meganathan_203ac11) - resolved.
+- 0173330: [Bug PHP] [QA][Admin] - Only one time user subscribed but in admin twice time same record is present (meganathan_203ac11) - resolved.
+- 0173331: [Bug PHP] [QA] - Site is in private beta mode, Invite friend option is not showing in menus (meganathan_203ac11) - resolved.
+- 0173332: [Bug CSS] [QA] - In private beta, footer link should aligned center to the page and powered icon more spacing is present (meganathan_203ac11) - resolved.
+- 0173333: [Bug CSS] [QA] - Link and cursor property is missing for user register link in site launched mail and link font style is varying from othe (meganathan_203ac11) - resolved.
+- 0173270: [Bug PHP] [QA] - Default country name is showing as afgan after adding auto completion and select update it get reset as afgan (amala_187at12) - resolved.
+- 0173155: [Bug PHP] [QA] - In edit flexible listing, start time and selected dates are get reset (mohanraj_109at09) - resolved.
+- 0173264: [Bug CSS] [QA][Admin] - Google analytic, filter icon should aligned properly (mohanraj_109at09) - resolved.
+- 0173299: [Bug PHP] [QA] - Free booking label should present, should not show the value (mohanraj_109at09) - resolved.
+- 0173302: [Bug PHP] [QA] - Event timing is not showing in calendar (mohanraj_109at09) - resolved.
+- 0173303: [Bug PHP] [QA] - Unnecessary blank record is displaying in calendar view (mohanraj_109at09) - resolved.
+- 0173305: [Bug PHP] [QA] - Calendar update is not working (mohanraj_109at09) - resolved.
+- 0173314: [Bug PHP] [QA] - Should ordered site fee at last. otherwise get confusion (siva_063at09) - resolved.
+- 0173316: [Bug PHP] [QA] - Item already expired but still showing in listing and view the listing book it form is empty (siva_063at09) - resolved.
+- 0173167: [Bug PHP] [QA] - Currency symbol is not get updated (amala_187at12) - resolved.
+- 0173301: [Bug PHP] [QA] - Without uploading any new image file and update listing is not working (anandam_023ac09) - resolved.
+- 0173320: [Bug PHP] [QA] - In add item page, loader should present after ading, then only user know it get loading (anandam_023ac09) - resolved.
+- 0173128: [Bug PHP] [QA] - In edit listing page, add price are displaying multiple times (mohanraj_109at09) - resolved.
+- 0173304: [Bug CSS] [QA] - Calendar timer style is broken (mohanraj_109at09) - resolved.
+- 0173283: [Bug CSS] [QA] - In IE7 search layer alignment is broken (amala_187at12) - resolved.
+- 0173295: [Bug PHP] [QA] - Click the Cancel option in payment gateway success and failure both message is displaying (amala_187at12) - resolved.
+- 0173296: [Bug PHP] [QA] - After connected also waiting for notification flash message is displaying (amala_187at12) - resolved.
+- 0173132: [Bug PHP] [QA] - Site fee taken amount information is missing in transaction page and complete booking amount is showing in credited, adm (meganathan_203ac11) - resolved.
+- 0173166: [Bug PHP] [QA] - After changing currency value.then all listingvalue get changed as zero (siva_063at09) - resolved.
+- 0173165: [Bug PHP] [QA] - Added private note is not get showing in booker login but that info is showing in host login (amala_187at12) - resolved.
+- 0173240: [Bug PHP] [QA][Admin] - Newly register user login timer is showing and not proper (amala_187at12) - resolved.
+- 0173268: [Bug PHP] [QA][Admin] - Under process filter is not needed for manual withdraw (amala_187at12) - resolved.
+- 0173269: [Enhancement] [QA][Admin] - When amount get added in deposited (amala_187at12) - resolved.
+- 0173271: [Bug PHP] [QA][Admin] - Exporting through more action csv file title and clicking csv file in user listing page table title is varying (amala_187at12) - resolved.
+- 0173285: [Bug PHP] [QA] - In IE8 clone image is not showing (amala_187at12) - resolved.
+- 0173294: [Bug PHP] [QA] - xss issue is present in edit profile page and update redirect to database error (amala_187at12) - resolved.
+- 0173242: [Bug CSS] [QA] - Address and available dates get overlapped in listing page (mohanraj_109at09) - resolved.
+- 0173121: [Bug PHP] [QA] - Event is added then mention dates should show instead of showing all days (mohanraj_109at09) - resolved.
+- 0173292: [Bug PHP] [QA] - Event from date is started but record is payment pending booker should not also user book the listing and once cron is ru (siva_063at09) - resolved.
+- 0173286: [Bug PHP] [QA] - Listing is not tipped but date get expired still record is not moved to refund status and without tipping should not show (amala_187at12) - resolved.
+- 0173273: [Bug PHP] [QA] - revenue price is not updating properly in all pages just count is get updated and booking lost count is present but price (amala_187at12) - resolved.
+- 0173272: [Bug PHP] [QA] - Update listing is not working in host and admin (anandam_023ac09) - resolved.
+- 0173262: [Bug Documentation] [QA][Admin] - Export file title name should changed properly (siva_063at09) - resolved.
+- 0173123: [Bug PHP] [QA] - Host make an offer and added listing then notification is not sent to the request added user and offered counts also not (amala_187at12) - resolved.
+- 0173291: [Bug PHP] [QA] - Update the plugin setting, page redirection is not proper (amala_187at12) - resolved.
+- 0173243: [Bug PHP] [QA] - Before login, in request without adding message to host request button is added. no error message is showing (meganathan_203ac11) - resolved.
+- 0173244: [Bug PHP] [QA] - Quick request booking login and register is not redirecting to request buy page (meganathan_203ac11) - resolved.
+- 0173126: [Bug PHP] [QA] - Free booking status changed message content. payment pending status name is showing (meganathan_203ac11) - resolved.
+- 0173129: [Bug PHP] [QA] - After confirming the booking page redirect to error page (meganathan_203ac11) - resolved.
+- 0173130: [Bug PHP] [QA] - Gross pay amount is wrongly showing in hoster (meganathan_203ac11) - resolved.
+- 0173219: [Bug PHP] - After confirm the booking listing also, still booked amount is not get added in host wallet (meganathan_203ac11) - resolved.
+- 0173246: [Bug CSS] [QA] - Icon and tool layer should aligned properly (meganathan_203ac11) - resolved.
+- 0173280: [Bug PHP] [QA] - In payout preference page, Title is displaying twice (meganathan_203ac11) - resolved.
+- 0173239: [Enhancement] - Enhancement - HTML5 uploading listing add & edit (anandam_023ac09) - resolved.
+- 0173253: [Bug PHP] [QA][Admin] - Admin item add redirect to error page (amala_187at12) - resolved.
+- 0173297: [Bug PHP] [QA] - Listing add is not working (amala_187at12) - resolved.
+- 0173298: [Bug PHP] [QA] - Cancel option is not showing for each image file (anandam_023ac09) - resolved.
+- 0173217: [Bug PHP] - Update calendar is not working properly (mohanraj_109at09) - resolved.
+- 0173215: [Bug PHP] - Repeat on days - event host calendar (mohanraj_109at09) - resolved.
+- 0173233: [Bug PHP] - In user table empty record inserted (amala_187at12) - resolved.
+- 0173247: [Bug PHP] [QA] - Print ticket should open in new tab (amala_187at12) - resolved.
+- 0173259: [Bug PHP] [QA][Admin] - Current date added records are not showing in insight page (amala_187at12) - resolved.
+- 0173260: [Bug PHP] [QA][Admin] - Insights user follower counts are not get updating (amala_187at12) - resolved.
+- 0173261: [Bug PHP] [QA][Admin] - Request insight table in empty (amala_187at12) - resolved.
+- 0173265: [Bug CSS] [QA][Admin] - Pre launch and private beta filer option selected then should get highlighted (amala_187at12) - resolved.
+- 0173266: [Bug PHP] [QA][Admin] - Review Positive value is not showing (amala_187at12) - resolved.
+- 0173267: [Bug PHP] [QA][Admin] - Amount is wrongly showing in host and booker tabs (amala_187at12) - resolved.
+- 0173255: [Bug PHP] [QA][Admin] - Admin adding request page redirection is not proper (siva_063at09) - resolved.
+- 0173248: [Bug PHP] [QA] - Connect is not working, just click the link then showing success message not redirecting to paypal (meganathan_203ac11) - resolved.
+- 0173287: [Bug PHP] [QA] - Booking 'To' date is completed after running cron also. booking status is not updated (siva_063at09) - resolved.
+- 0173275: [Bug PHP] [QA][Admin] - Transaction csv file redirect to fatal error page (amala_187at12) - resolved.
+- 0173276: [Bug PHP] [QA][Admin] - In transaction page, searched with dates only showing admin transactions (amala_187at12) - resolved.
+- 0173258: [Bug PHP] [QA][Admin] - In collection edit page, Reordering redirect to error page and update the collection redirect to error page (amala_187at12) - resolved.
+- 0173256: [Bug PHP] [QA] - Calendar is not displaying if host selected both event and listing (mohanraj_109at09) - resolved.
+- 0173228: [Bug PHP] - In edit coupon page, listing is not showing (amala_187at12) - resolved.
+- 0173251: [Bug PHP] [QA][Admin] - Cron link redirect to error page (siva_063at09) - resolved.
+- 0173250: [Bug PHP] [QA] - Full screen book it option is not working (siva_063at09) - resolved.
+- 0173254: [Bug PHP] [QA] - Listing booking is present then info should changed properly (siva_063at09) - resolved.
+- 0173257: [Bug Documentation] [QA] - Two legend same name is present in calendar page (mohanraj_109at09) - resolved.
+- 0173277: [Bug PHP] [QA][Admin] - Unnecessary Live mode option is present for Wallet payments (siva_063at09) - resolved.
+- 0173278: [Bug Documentation] [QA][Admin] - Label name is not proper (siva_063at09) - resolved.
+- 0173164: [Bug PHP] [QA][Admin] - Normal registration redirect to error page and Admin user add redirect to error page (meganathan_203ac11) - resolved.
+- 0173218: [Bug PHP] - Book it price is not proper for flexible booking (siva_063at09) - resolved.
+- 0173216: [Bug PHP] - In calendar same legend is displaying twice (mohanraj_109at09) - resolved.
+- 0173224: [Bug PHP] - Activities missing for request/negotiation (siva_063at09) - resolved.
+- 0173231: [Bug CSS] - Form field style is broken (amala_187at12) - resolved.
+- 0173223: [Bug PHP] - Booking request from traveler and host confirm the request, then traveler try to booking but total price is not showing (siva_063at09) - resolved.
+- 0173222: [Bug PHP] - Booking request confirmation label name should changed. otherwise get confusion (siva_063at09) - resolved.
+- 0173221: [Bug PHP] - Booking request negotiation layer is displaying, negotiation is not present in the site (meganathan_203ac11) - resolved.
+- 0173220: [Bug PHP] - In request add message added by booker but that information is not showing anywhere in host login (meganathan_203ac11) - resolved.
+- 0173122: [Bug PHP] [QA] - Make an offer is selected for the request user added related listing is not showing (amala_187at12) - resolved.
+- 0173124: [Bug PHP] [QA] - Free event booking, Ticket and quantity label should not show (amala_187at12) - resolved.
+- 0173125: [Bug PHP] [QA] - In message content, HTML tags are displaying (amala_187at12) - resolved.
+- 0173127: [Bug PHP] [QA] - Newly register user, success rate is showing (amala_187at12) - resolved.
+- 0173131: [Bug CSS] [QA] - Edit listing page or add listing page validation, remove button alignment get changed (amala_187at12) - resolved.
+- 0173133: [Bug PHP] [QA] - Quantity limit is over then should not showing in book it (amala_187at12) - resolved.
+- 0173134: [Bug PHP] [QA] - In list should show 'please select' should not show '0' (amala_187at12) - resolved.
+- 0173150: [Bug PHP] [QA] - In my listing page, select option redirect to inactive link (amala_187at12) - resolved.
+- 0173152: [Bug PHP] [QA] - In add listing page, unlisted option is selected is not get showing in my listing page a,so but count is get increased (amala_187at12) - resolved.
+- 0173154: [Bug CSS] [QA] - Action icon and sublayer should aligned properly (amala_187at12) - resolved.
+- 0173211: [Bug PHP] - Original search address is not get updating in listing booking page (amala_187at12) - resolved.
+- 0173213: [Bug PHP] - Running cron link redirect to error page (amala_187at12) - resolved.
+- 0173214: [Bug PHP] - Search is not working (amala_187at12) - resolved.
+- 0173241: [Bug PHP] [QA] - Newly register user login is not redirecting to find friend pages (amala_187at12) - resolved.
+- 0173225: [Bug PHP] - Activate user link is not working (siva_063at09) - resolved.
+- 0173226: [Bug PHP] - Featured listing change to unfeatured but flash message is not proper (siva_063at09) - resolved.
+- 0173227: [Bug PHP] - User deactivate select option is not working (siva_063at09) - resolved.
+- 0173229: [Bug PHP] - City flag is not proper in listing favorites (siva_063at09) - resolved.
+- 0173230: [Bug PHP] - Action link is not working in request flags page (siva_063at09) - resolved.
+- 0173232: [Bug PHP] - Category delete redirect to error page (siva_063at09) - resolved.
+- 0173234: [Bug PHP] - Additional fee unnecessary, two option is present both option look like same if not give proper help info near (siva_063at09) - resolved.
+- 0173235: [Bug PHP] - The youtube video url will not be accept in the listing page while adding the properties. (siva_063at09) - resolved.
+- 0173236: [Bug PHP] - Map is not showing in listing view page (siva_063at09) - resolved.
+- 0173169: [Bug PHP] - Facepile loading in listing view page (siva_063at09) - resolved.
+- 0173170: [Bug PHP] - Login with connected facebook account redirect to database error (siva_063at09) - resolved.
+- 0173171: [Bug PHP] - Request deleted through more action but still record is showing (siva_063at09) - resolved.
+- 0173172: [Bug PHP] - Gallery implementation in view page (siva_063at09) - resolved.
+- 0173176: [Bug PHP] - Listing request is added then current status is empty in activities (meganathan_203ac11) - resolved.
+- 0173177: [Bug PHP] - Activities count is showing but clicking information is missing (meganathan_203ac11) - resolved.
+- 0173178: [Bug PHP] - Select link is not working in my request (meganathan_203ac11) - resolved.
+- 0173179: [Bug PHP] - Check out option is not present then option should display in print page (meganathan_203ac11) - resolved.
+- 0173180: [Bug PHP] - Phone and back up phone always empty still host added phone and back phone info in settngs page (meganathan_203ac11) - resolved.
+- 0173181: [Bug PHP] - By changing id can able to view the payment pending booking ticket also (meganathan_203ac11) - resolved.
+- 0173182: [Bug PHP] - service fee option is not present then this table should get removed in listing bookings page (meganathan_203ac11) - resolved.
+- 0173173: [Bug PHP] - Newly register user, notification layer is not proper (meganathan_203ac11) - resolved.
+- 0173174: [Bug PHP] - In dashboard page and user view page, liked listing and listing. no listing is present unnecessary blank space is present (meganathan_203ac11) - resolved.
+- 0173175: [Bug PHP] - Before login, listing request is submit page form style is broken (meganathan_203ac11) - resolved.
+- 0173183: [Bug PHP] - Added private note is not getting updated in calendar page (meganathan_203ac11) - resolved.
+- 0173184: [Bug PHP] - In admin setting 1 day is present for auto expire. but in mail is mention as 1 hr (meganathan_203ac11) - resolved.
+- 0173185: [Bug PHP] - Activities timer and acton should aligned straight as like in HTMl page (meganathan_203ac11) - resolved.
+- 0173186: [Bug PHP] - Admin link is not get highlighted hovering time (meganathan_203ac11) - resolved.
+- 0173187: [Bug PHP] - Ticket per order label name is not proper (meganathan_203ac11) - resolved.
+- 0173188: [Bug PHP] - Adding single image, but showing broken image also (meganathan_203ac11) - resolved.
+- 0173189: [Bug PHP] - In Dashboard, host postivie count is not showing (meganathan_203ac11) - resolved.
+- 0173190: [Bug PHP] - Review is added by host in dates timer is missing and nights wrongly showing with deciaml value (meganathan_203ac11) - resolved.
+- 0173191: [Bug PHP] - Review guest photo is not clearer is broken (meganathan_203ac11) - resolved.
+- 0173192: [Bug PHP] - Review add redirect to blank page (meganathan_203ac11) - resolved.
+- 0173193: [Bug PHP] - Review is present for the Listing but count and success rate is not showing (meganathan_203ac11) - resolved.
+- 0173194: [Bug PHP] - Email template Site logo is broken (meganathan_203ac11) - resolved.
+- 0173195: [Bug PHP] - After booking, count and info are not get updated (meganathan_203ac11) - resolved.
+- 0173196: [Bug PHP] - Coupon is added then discount price is not showing anywhere (meganathan_203ac11) - resolved.
+- 0173197: [Bug PHP] - After search list style count not displaying (meganathan_203ac11) - resolved.
+- 0173198: [Bug PHP] - Admin top header not proper in 1024 resoultion (meganathan_203ac11) - resolved.
+- 0173199: [Bug PHP] - After booking activities information should changed for host and booker. same message is showing for both and Host will be pai (meganathan_203ac11) - resolved.
+- 0173200: [Bug PHP] - Revenue is not get updated in My listing page (meganathan_203ac11) - resolved.
+- 0173201: [Bug PHP] - Review video is added is not showing (meganathan_203ac11) - resolved.
+- 0173202: [Bug PHP] - Available time is not working properly (mohanraj_109at09) - resolved.
+- 0173203: [Bug PHP] - Newly added fiexible listing booking redirect to blank page (mohanraj_109at09) - resolved.
+- 0173204: [Bug PHP] - Without selecting the quantity, can able to book it option (mohanraj_109at09) - resolved.
+- 0173205: [Bug PHP] - Calendar select option is not working (mohanraj_109at09) - resolved.
+- 0173206: [Bug PHP] - Search with this page, include non-exact option is not checked but result showing non-exact also (mohanraj_109at09) - resolved.
+- 0173207: [Bug PHP] - Repeat on days - event booking (mohanraj_109at09) - resolved.
+- 0173208: [Bug PHP] - Event listing missing in host calendar (mohanraj_109at09) - resolved.
+- 0173209: [Bug PHP] - Calendar datepicker UI in host calendar (mohanraj_109at09) - resolved.
+- 0173210: [Bug PHP] - Autocomplete implement in admin side add & edit pages (meganathan_203ac11) - resolved.
+- 0173153: [Bug PHP] [QA] - Without selecting the quantity can able to book the listing, validation is missing (mohanraj_109at09) - resolved.
+- 0173263: [Bug PHP] [QA][Admin] - Google analytic showing error (mohanraj_109at09) - closed.
+- 0173322: [Bug PHP] [QA] - Form field delete is not working (mohanraj_109at09) - closed.
+- 0173319: [Bug PHP] [QA][Admin] - Group add is not working in form fields (mohanraj_109at09) - closed.
+[175 issues]
+
+BookorRent - v1.0a15 (Released 2013-12-24) [ View Issues ] 
+=======================================================
+
+Fifteenth alpha version released on Dec 24th, 2013
+
+- 0172986: [Feature Core] - Calendar UI is confusing with cursor mouse and also animation is not smooth (mohanraj_109at09) - resolved.
+- 0172987: [Bug PHP] - Size and positioning - currently page gets lengthy and uncomfortable (mohanraj_109at09) - resolved.
+- 0172988: [Feature Core] - Bookit page back link need in dropdown (mohanraj_109at09) - resolved.
+- 0172989: [Bug PHP] - Bookit page loader color not proper in calendar (siva_063at09) - resolved.
+- 0172990: [Bug PHP] - Order page not proper without login (siva_063at09) - resolved.
+- 0172991: [Bug PHP] - Filtering options look completely broken and less useful (mohanraj_109at09) - resolved.
+- 0172996: [Bug PHP] - In request view, trip details & color change (siva_063at09) - resolved.
+- 0172997: [Bug PHP] - Price display in request index and view page (siva_063at09) - resolved.
+- 0172998: [Bug CSS] - Datepicker alignment issue (mohanraj_109at09) - resolved.
+- 0173002: [Bug PHP] - Request edit not working (siva_063at09) - resolved.
+- 0173004: [Bug CSS] - My listings design issue (siva_063at09) - resolved.
+- 0173011: [Bug CSS] - Google analytics chart not working (mohanraj_109at09) - resolved.
+- 0173013: [Bug PHP] - Spot left wrongly showing & cost added for particular date (mohanraj_109at09) - resolved.
+- 0173014: [Bug PHP] - How user know the minimum and maximum quantity (mohanraj_109at09) - resolved.
+- 0173015: [Bug PHP] - Change status option is not working in the calendar (siva_063at09) - resolved.
+- 0173016: [Bug PHP] - Live tour displaying for other links also (meganathan_203ac11) - resolved.
+- 0173017: [Bug PHP] - Unnecessary layer is showing in activities page (meganathan_203ac11) - resolved.
+- 0173018: [Bug PHP] - Arrow alignment not proper in booking (meganathan_203ac11) - resolved.
+- 0173021: [Bug PHP] - Request in listing view page - before login (meganathan_203ac11) - resolved.
+- 0173019: [Bug PHP] - Calendar view status change option and submit option is missing (siva_063at09) - resolved.
+- 0173020: [Bug PHP] - Facepile not working in register (siva_063at09) - resolved.
+- 0173022: [Bug CSS] - Description field and label alignment is not proper (meganathan_203ac11) - resolved.
+- 0173023: [Bug CSS] - Free listing buy page, book it button alignment is not proper and button style is not proper (meganathan_203ac11) - resolved.
+- 0173024: [Bug PHP] - Home page banner, black shadow is not showing in IE (meganathan_203ac11) - resolved.
+- 0173025: [Bug PHP] - Hovering time link should get highlight as like other links (same issue is present in site builders) (meganathan_203ac11) - resolved.
+- 0173026: [Bug PHP] - Newly added record view and postive value is not present (meganathan_203ac11) - resolved.
+- 0173027: [Bug PHP] - Add category page, upload icon field is not showing after submit the form fields get display and validation message also not p (meganathan_203ac11) - resolved.
+- 0173028: [Bug PHP] - Menus are streached not looking good (meganathan_203ac11) - resolved.
+- 0173029: [Bug PHP] - Add fund option is not working (siva_063at09) - resolved.
+- 0173030: [Bug PHP] - Invite New User - will explain (meganathan_203ac11) - resolved.
+- 0173031: [Bug PHP] - Buyer form field validation is not working in order page (siva_063at09) - resolved.
+- 0173032: [Bug PHP] - Review add redirct to error page (mohanraj_109at09) - resolved.
+- 0173033: [Bug PHP] - cancel find friend option redirection is not proper (siva_063at09) - resolved.
+- 0173034: [Bug PHP] - Request booking confirmed option missing (siva_063at09) - resolved.
+- 0173035: [Bug PHP] - After adding private note redirection is not proper (mohanraj_109at09) - resolved.
+- 0173036: [Bug PHP] - Difference between time is 0 then show error (mohanraj_109at09) - resolved.
+- 0173037: [Bug PHP] - Edit listing page fields are emptly showing (mohanraj_109at09) - resolved.
+- 0173038: [Bug PHP] - Cache issue is presnt that record is paid fee and count also not ge updated (siva_063at09) - resolved.
+- 0173039: [Bug PHP] - Calendar update is not working (siva_063at09) - resolved.
+- 0173040: [Bug PHP] - Check box checked not working while cloning in post listing (siva_063at09) - resolved.
+- 0173041: [Bug PHP] - Notification message, content html tags are displaying (meganathan_203ac11) - resolved.
+- 0173043: [Bug PHP] - Listing add page, in pricing only request value is added then showing in listing view page free and schedule layer is empty an (mohanraj_109at09) - resolved.
+- 0173044: [Bug PHP] - Validation is missing for the field and error message is not validation is not proper (mohanraj_109at09) - resolved.
+- 0173045: [Bug PHP] - Calendar filter not working properly (siva_063at09) - resolved.
+- 0173046: [Bug PHP] - Add new step redirection is not proper and try to click the light box then window get closed, so cannot able to add the field (meganathan_203ac11) - resolved.
+- 0173047: [Bug PHP] - Hovering time live tour label is not visible (meganathan_203ac11) - resolved.
+- 0173048: [Bug PHP] - Property bookings amount calculation in summary - UI (mohanraj_109at09) - resolved.
+- 0173049: [Bug PHP] - Edit listing page, happening value reset (mohanraj_109at09) - resolved.
+- 0173050: [Bug PHP] - Acitivities booked id is not showing, then how user can redirect to id activities page (meganathan_203ac11) - resolved.
+- 0173051: [Bug PHP] - Calendar update is not working (siva_063at09) - resolved.
+- 0173052: [Bug CSS] - Button style is not looking good through out the site (meganathan_203ac11) - resolved.
+- 0173053: [Bug CSS] - Listing layer design is broken (meganathan_203ac11) - resolved.
+- 0173054: [Bug CSS] - In search page, field and button alignment is not proper (meganathan_203ac11) - resolved.
+- 0173055: [Bug PHP] - Review page, image layer get overlap with the label option (meganathan_203ac11) - resolved.
+- 0173056: [Bug PHP] - Featured legend style should changed as like other style (meganathan_203ac11) - resolved.
+- 0173057: [Bug PHP] - Memcache is disabled then sudopay gateway is not showing (meganathan_203ac11) - resolved.
+- 0173058: [Bug PHP] - Check in option is not present in the site (meganathan_203ac11) - resolved.
+- 0173059: [Bug PHP] - In plugin page, Item and item favorite same icon is present and collection and coupon same icon is present (meganathan_203ac11) - resolved.
+- 0173060: [Bug PHP] - Manual payment flash messag should cahnged is not clearer (meganathan_203ac11) - resolved.
+- 0173061: [Bug PHP] - Category form field unnecessary submit button is present (meganathan_203ac11) - resolved.
+- 0173062: [Bug PHP] - From & To date - UI in order page (mohanraj_109at09) - resolved.
+- 0173063: [Bug PHP] - Timepicker should display for property add (mohanraj_109at09) - resolved.
+- 0173064: [Bug PHP] - Available date are wrongly showing in listing fee pageand buy page also (mohanraj_109at09) - resolved.
+- 0173065: [Bug PHP] - Records are not showing in IE (siva_063at09) - resolved.
+- 0173066: [Bug PHP] - Translation memcache issue (siva_063at09) - resolved.
+- 0173067: [Bug PHP] - Add new text not working in translation (siva_063at09) - resolved.
+- 0173068: [Bug PHP] - Yahoo connection is not working (siva_063at09) - resolved.
+- 0173069: [Bug PHP] - Booking request record is present but count is not showing (siva_063at09) - resolved.
+- 0173070: [Bug PHP] - After adding affiliate page, still affiliate form is displaying (siva_063at09) - resolved.
+- 0173071: [Bug PHP] - After search Clicking any layer search form is showing (siva_063at09) - resolved.
+- 0173072: [Bug PHP] - Other user request action link is displaying (siva_063at09) - resolved.
+- 0173073: [Bug PHP] - Flag this listing selected, redirecting to new page, should show the light box in the same page (siva_063at09) - resolved.
+- 0173074: [Bug PHP] - Checkin and checkout Dates are wrongly showing in review page (siva_063at09) - resolved.
+- 0173075: [Bug PHP] - Listing fee is empty still already existing record pay listing fee option is showing (siva_063at09) - resolved.
+- 0173076: [Bug PHP] - Setting overview label and icon only get highlighted should not highlight complete layer (siva_063at09) - resolved.
+- 0173077: [Bug PHP] - Adding time meniotn from and to date is not showing in view page (siva_063at09) - resolved.
+- 0173078: [Bug PHP] - After reading message count is not reduced in the message (cache issue is present) (siva_063at09) - resolved.
+- 0173079: [Bug PHP] - Insight page title is missing and only showing the listing and booking not showing the registe and login other charts as like (siva_063at09) - resolved.
+- 0173080: [Bug PHP] - JavaScript validation doesn't work in private beta page (siva_063at09) - resolved.
+- 0173081: [Bug PHP] - Calendar and date option is not clearer in add listing page (mohanraj_109at09) - resolved.
+- 0173082: [Bug PHP] - Booking listing with form field redirect to error page (mohanraj_109at09) - resolved.
+- 0173083: [Bug PHP] - Before login book it redirect to error page with form field is adding for listing (mohanraj_109at09) - resolved.
+- 0173085: [Bug CSS] - Project add field alignment is not proper (meganathan_203ac11) - resolved.
+- 0173086: [Bug PHP] - Current date is added not showing validation for the field (meganathan_203ac11) - resolved.
+- 0173087: [Bug PHP] - New user success rate have to show like 'n/a' (meganathan_203ac11) - resolved.
+- 0173088: [Bug PHP] - In manage translation page, Field size is not proper (siva_063at09) - resolved.
+- 0173089: [Bug PHP] - Admin action panel links are not working in listing view page (siva_063at09) - resolved.
+- 0173090: [Bug PHP] - Reqest edit page price is not showing (siva_063at09) - resolved.
+- 0173091: [Bug PHP] - Theme is not showing complete home page - not needed. (siva_063at09) - resolved.
+- 0173092: [Bug PHP] - Map is not get updated after adding address (siva_063at09) - resolved.
+- 0173093: [Bug PHP] - Cron link redirect to error page (siva_063at09) - resolved.
+- 0173094: [Bug PHP] - Update translation redirect to error page (siva_063at09) - resolved.
+- 0173095: [Bug PHP] - In manage translation page, Search redirect to error page (siva_063at09) - resolved.
+- 0173096: [Bug PHP] - Referral path redirect to error page (siva_063at09) - resolved.
+- 0173097: [Bug PHP] - Gmail connect redirect to error page (siva_063at09) - resolved.
+- 0173098: [Bug PHP] - Site is in Pre launch and private beta mode site redirect to error page (meganathan_203ac11) - resolved.
+- 0173099: [Bug PHP] - Still sprite path link redirect to error page (siva_063at09) - resolved.
+- 0173100: [Bug PHP] - Update filter link redirect to error page (siva_063at09) - resolved.
+- 0173101: [Bug PHP] - Near by listing is selected is keep on loading for long time (mohanraj_109at09) - resolved.
+- 0173102: [Bug CSS] - Auto completion address alignment is not proper (meganathan_203ac11) - resolved.
+- 0173103: [Bug PHP] - Admin panel tab not working properly while load via pjax (siva_063at09) - resolved.
+- 0173104: [Bug PHP] - Tab not necessary in request view page if no other details present (mohanraj_109at09) - resolved.
+- 0173105: [Bug PHP] - Hash append in view page URL while click thorugh direct items link (mohanraj_109at09) - resolved.
+- 0173106: [Bug PHP] - Header search redirect to error page (mohanraj_109at09) - resolved.
+- 0173107: [Bug PHP] - Map not displaying after search in items page (mohanraj_109at09) - resolved.
+- 0173108: [Bug PHP] - Collection view memory issue (siva_063at09) - resolved.
+- 0173109: [Bug PHP] - Cant able to click links in admin panel (both listing & request) (siva_063at09) - resolved.
+- 0173110: [Bug PHP] - Booking Request - legend color missing (mohanraj_109at09) - resolved.
+- 0173111: [Bug PHP] - "Enable Auto Login After Registration" is enabled at admin panel internal server error is occurring (mohanraj_109at09) - resolved.
+- 0173112: [Bug PHP] - Collection add not working in admin side (mohanraj_109at09) - resolved.
+- 0173113: [Bug PHP] - Remove Affiliates link in affiliate cash withdrawals (siva_063at09) - resolved.
+- 0173114: [Bug PHP] - IP link should open in new tab in all pages (siva_063at09) - resolved.
+- 0173115: [Bug PHP] - Footer link map not working (mohanraj_109at09) - resolved.
+- 0173116: [Bug PHP] - Print ticket information not proper (mohanraj_109at09) - resolved.
+- 0173117: [Bug PHP] - Request form fields details not displaying in view page (mohanraj_109at09) - resolved.
+- 0173118: [Bug PHP] - Activities not working properly (mohanraj_109at09) - resolved.
+- 0173119: [Bug PHP] - Additional buyer details not shown in activities page (mohanraj_109at09) - resolved.
+- 0173120: [Bug PHP] - Available, Sold Out - legend missing in book it calendar (mohanraj_109at09) - resolved.
+- 0173084: [Bug PHP] - Newly added fixed event schedule option is not showing (mohanraj_109at09) - resolved.
+[119 issues]
+
+BookorRent - v1.0a14 (Released 2013-12-19) [ View Issues ] 
+=======================================================
+
+Fourteenth alpha version released on Dec 19th, 2013
+
+- 0172957: [Bug PHP] - Coupon value is deducted but decimal is not calculated (siva_063at09) - resolved.
+- 0172958: [Bug PHP] - Additional fee not shown in transaction (siva_063at09) - resolved.
+- 0172959: [Bug PHP] - Buy page site fee information is not showing in buyer (siva_063at09) - resolved.
+- 0172964: [Feature Core] - Request - views count not displaying (siva_063at09) - resolved.
+- 0172965: [Bug PHP] - Request information in admin side (siva_063at09) - resolved.
+- 0172968: [Bug PHP] - Confirmed status code not correct for wallet (siva_063at09) - resolved.
+- 0172970: [Bug PHP] - Select option is not working properly through out the site (siva_063at09) - resolved.
+- 0172972: [Bug PHP] - Coupon is not working in purchase (siva_063at09) - resolved.
+- 0172973: [Bug PHP] - Privacy policy link not working in pre-launch page (siva_063at09) - resolved.
+- 0172974: [Feature Core] - Featured legend aligment in listing view page (siva_063at09) - resolved.
+- 0172975: [Bug PHP] - Messages heading size not proper (siva_063at09) - resolved.
+- 0172976: [Feature Core] - Price color not proper in view page (siva_063at09) - resolved.
+- 0172977: [Bug PHP] - Message count not properly displaying (siva_063at09) - resolved.
+- 0172978: [Bug PHP] - Buyer form field added option values for checkbox and radio is not showing in order page (siva_063at09) - resolved.
+- 0172979: [Bug PHP] - Icons for coupons & booking settings (siva_063at09) - resolved.
+- 0172980: [Bug PHP] - Coupon edit & update is not working (siva_063at09) - resolved.
+- 0172981: [Bug PHP] - Cancel link translation problem in order & cancel page (siva_063at09) - resolved.
+- 0172982: [Bug PHP] - Translation sample record missing (siva_063at09) - resolved.
+- 0172983: [Bug PHP] - Item Fee => Item Listing Fee, For free item item, set it as "0". => For free item listing, set it as "0". (siva_063at09) - resolved.
+- 0172984: [Bug PHP] - Item label change to Listing in table settings & setting categories table (siva_063at09) - resolved.
+- 0172985: [Bug PHP] - Facebook & Twitter pages for Rentify (siva_063at09) - resolved.
+- 0172954: [Bug PHP] - Update coupon while reject, expired, cancel (mohanraj_109at09) - resolved.
+- 0172955: [Bug PHP] - Check condition for tipping count in confirmed status (mohanraj_109at09) - resolved.
+- 0172956: [Bug PHP] - Validation not working while booking (mohanraj_109at09) - resolved.
+- 0172960: [Bug PHP] - Make an offer condition check with items (mohanraj_109at09) - resolved.
+- 0172961: [Bug PHP] - Make an offer prefill category & sub category from request (mohanraj_109at09) - resolved.
+- 0172962: [Feature Core] - Request category filter missing (mohanraj_109at09) - resolved.
+- 0172963: [Bug PHP] - Category ascending and default open in items and requests list (mohanraj_109at09) - resolved.
+- 0172966: [Bug PHP] - Tipping refund process while not reached the minimum limit - void payment (mohanraj_109at09) - resolved.
+- 0172967: [Bug PHP] - After booking confirmed, booking & coupon count need to update (mohanraj_109at09) - resolved.
+- 0172969: [Bug CSS] - Item add alignment not proper (mohanraj_109at09) - resolved.
+- 0172971: [Bug PHP] - Message to host before login not needed in order page (mohanraj_109at09) - resolved.
+- 0172992: [Bug PHP] - Htruncate not working in admin side settings page (siva_063at09) - resolved.
+- 0172993: [Bug PHP] - Color not proper and find friends not working (siva_063at09) - resolved.
+- 0172994: [Bug PHP] - Breadcrumb label change in Activities => Listings (siva_063at09) - resolved.
+- 0172995: [Bug PHP] - Insights chart for items error page (siva_063at09) - resolved.
+- 0172999: [Bug CSS] - Admin header setting overview design issue (siva_063at09) - resolved.
+- 0173000: [Feature Core] - Admin header links highlight issue (siva_063at09) - resolved.
+- 0173001: [Bug PHP] - Full page caching not working (siva_063at09) - resolved.
+- 0173003: [Bug PHP] - Agriya Rentify Advantages in home page (siva_063at09) - resolved.
+- 0173005: [Bug PHP] - Properties select all, none - not working (siva_063at09) - resolved.
+- 0173006: [Bug PHP] - Items list error page (siva_063at09) - resolved.
+- 0173007: [Bug PHP] - Sub menu missing in affiliates page (siva_063at09) - resolved.
+- 0173008: [Bug PHP] - Listing view page - page title not proper (siva_063at09) - resolved.
+- 0173009: [Bug PHP] - In requests list, actions link display for all users (siva_063at09) - resolved.
+- 0173010: [Bug PHP] - Related & other requests not working in request view (siva_063at09) - resolved.
+- 0173012: [Bug PHP] - Icon missing fpr Plugin For All Modules (siva_063at09) - resolved.
+[47 issues]
+
+BookorRent - v1.0a13 (Released 2013-12-17) [ View Issues ] 
+=======================================================
+
+Thirteenth alpha version released on Dec 17th, 2013
+
+- 0172901: [Bug PHP] - Near by listings is keep on loading (siva_063at09) - resolved.
+- 0172878: [Bug PHP] - alternate name handling for items & booker (mohanraj_109at09) - resolved.
+- 0172879: [Bug PHP] - Pre approval cancel in paypal is not working (mohanraj_109at09) - resolved.
+- 0172880: [Bug PHP] - Third party logins are not working (mohanraj_109at09) - resolved.
+- 0172867: [Bug PHP] - Site Activities, Booking Activities, Listing Activities - use same label (siva_063at09) - resolved.
+- 0172868: [Bug PHP] - Request view page issue (siva_063at09) - resolved.
+- 0172869: [Feature Core] - Add Category => Add Category Type - label change (siva_063at09) - resolved.
+- 0172870: [Feature Core] - Post a Collections => Post a Collection - label change (siva_063at09) - resolved.
+- 0172871: [Bug PHP] - Add & Edit Page link remove in admin categories (siva_063at09) - resolved.
+- 0172872: [Bug PHP] - Listings List => Post Listing in payment gateways page - label change (siva_063at09) - resolved.
+- 0172873: [Bug PHP] - Post a request, Post your request - admin side menu and heading (siva_063at09) - resolved.
+- 0172874: [Bug PHP] - Coupons move under Listings below Listing Bookings with label => Listing Coupons (siva_063at09) - resolved.
+- 0172875: [Bug PHP] - Post a Coupons - link remove in header (siva_063at09) - resolved.
+- 0172876: [Bug PHP] - Post a request => Post a Request - label change (siva_063at09) - resolved.
+- 0172877: [Feature Core] - Post listing => Post a Listing - label change (siva_063at09) - resolved.
+- 0172886: [Bug PHP] - Contact us mail is not delivered to admin mail account (poornadhivya_169at11) - resolved.
+- 0172894: [Bug PHP] - User add fund option is not working (poornadhivya_169at11) - resolved.
+- 0172895: [Bug PHP] - Item listing page, change the feature option redirect to error page (poornadhivya_169at11) - resolved.
+- 0172896: [Bug PHP] - Admin posting page title is not proper (poornadhivya_169at11) - resolved.
+- 0172897: [Bug PHP] - Email to user, redirect to error page (poornadhivya_169at11) - resolved.
+- 0172898: [Bug PHP] - Reset the main category, then sub category field mandatory symbol is not showing (poornadhivya_169at11) - resolved.
+- 0172887: [Bug PHP] - Filters are not working (mohanraj_109at09) - resolved.
+- 0172888: [Bug PHP] - Search is not working (mohanraj_109at09) - resolved.
+- 0172889: [Feature Core] - Price range filter is not working (mohanraj_109at09) - resolved.
+- 0172890: [Bug PHP] - Search not handled properly (mohanraj_109at09) - resolved.
+- 0172891: [Bug PHP] - After running cron also booking status is not get updated (mohanraj_109at09) - resolved.
+- 0172892: [Bug PHP] - Free listing not handled properly (mohanraj_109at09) - resolved.
+- 0172893: [Bug PHP] - Added timer is wrongly showing in booking page (mohanraj_109at09) - resolved.
+- 0172899: [Bug PHP] - Item view page book it option is missing (mani_198at13) - resolved.
+- 0172902: [Bug PHP] - Membership fee is value is removed in admin but still user end membership showing as zero (mani_198at13) - resolved.
+- 0172903: [Bug PHP] - Listing booking page, view transaction and view activities redirect to error page (mani_198at13) - resolved.
+- 0172904: [Bug PHP] - Selecting the timer arrow then layer get closed (mani_198at13) - resolved.
+- 0172905: [Bug PHP] - View activities link redirect to error page (mani_198at13) - resolved.
+- 0172906: [Bug PHP] - Affiliate referral path redirect to error page (mani_198at13) - resolved.
+- 0172907: [Bug PHP] - User follow option is not working (mani_198at13) - resolved.
+- 0172881: [Bug PHP] - Pjax related problem in home and listings page (arunraj_201at13) - resolved.
+- 0172882: [Bug CSS] - Important: All products - payment form style design & UI (arunraj_201at13) - resolved.
+- 0172883: [Bug PHP] - Listing fee payment page change like order page (arunraj_201at13) - resolved.
+- 0172884: [Bug CSS] - Listing image and user avatar alignment is not proper (arunraj_201at13) - resolved.
+- 0172885: [Bug CSS] - Address Autocompletion page design is broken (arunraj_201at13) - resolved.
+- 0172900: [Bug CSS] - Email to user, autocompletion style is broken (arunraj_201at13) - resolved.
+[41 issues]
+
+BookorRent - v1.0a12 (Released 2013-12-13) [ View Issues ] 
+=======================================================
+
+Twelfth alpha version released on Dec 13th, 2013
+
+- 0172859: [Feature Core] - Bookit page design changes implementation (mohanraj_109at09) - resolved.
+- 0172860: [Feature Core] - Order page design changes implementation (mohanraj_109at09) - resolved.
+- 0172861: [Bug PHP] - Booking calendar effect not smooth (mohanraj_109at09) - resolved.
+- 0172862: [Bug PHP] - Static category page - description, home page icon image (mohanraj_109at09) - resolved.
+- 0172863: [Feature Core] - Listings page make category bold (mohanraj_109at09) - resolved.
+- 0172864: [Bug PHP] - Search implement in header (mohanraj_109at09) - resolved.
+- 0172865: [Feature Core] - Admin end header and footer design implementation (mohanraj_109at09) - resolved.
+- 0172866: [Bug PHP] - Front end header change (mohanraj_109at09) - resolved.
+[8 issues]
+
+BookorRent - v1.0a11 (Released 2013-12-09) [ View Issues ] 
+=======================================================
+
+Eleventh alpha version released on Dec 09th, 2013
+
+- 0172857: [Feature Core] - Sample record (mohanraj_109at09) - resolved.
+- 0172858: [Bug PHP] - Date picker time format changed (mohanraj_109at09) - resolved.
+[2 issues]
+
+BookorRent - v1.0a10 (Released 2013-12-07) [ View Issues ] 
+=======================================================
+
+Tenth alpha version released on Dec 07th, 2013
+
+- 0172852: [Bug PHP] - Price list show issue (mohanraj_109at09) - resolved.
+- 0172853: [Bug PHP] - Update price from host calendar for events (mohanraj_109at09) - resolved.
+- 0172854: [Bug PHP] - Problem with repeat on days in event host calendar (mohanraj_109at09) - resolved.
+- 0172855: [Bug PHP] - Price listing show issue while implemente (mohanraj_109at09) - resolved.
+- 0172856: [Bug PHP] - Repeat on days & duration problem in events (mohanraj_109at09) - resolved.
+[5 issues]
+
+BookorRent - v1.0a9 (Released 2013-12-05) [ View Issues ] 
+======================================================
+
+Ninth alpha version released on Dec 05th, 2013
+
+- 0172847: [Bug PHP] - Edit listing not working properly (mohanraj_109at09) - resolved.
+- 0172848: [Bug PHP] - Price calculation for flexible date booking (mohanraj_109at09) - resolved.
+- 0172849: [Feature Core] - Property multiple booking implementation (mohanraj_109at09) - resolved.
+- 0172850: [Bug PHP] - Test/live mode option for sudopay (mohanraj_109at09) - resolved.
+- 0172851: [Bug PHP] - Static pages for each category (mohanraj_109at09) - resolved.
+[5 issues]
+
+BookorRent - v1.0a8 (Not Yet Released) [ View Issues ] 
+===================================================
+
+Eighth alpha version released on Dec 4th, 2013
+
+- 0172833: [Bug PHP] - Capture amount after tipping point reached (mohanraj_109at09) - resolved.
+- 0172834: [Feature Core] - Coupon handling in book page (mohanraj_109at09) - resolved.
+- 0172835: [Bug PHP] - Categories type added in request table and request add form (mohanraj_109at09) - resolved.
+- 0172836: [Bug PHP] - Categories type added in listing table and add form (mohanraj_109at09) - resolved.
+- 0172837: [Feature Core] - Category type implementation (mohanraj_109at09) - resolved.
+- 0172838: [Bug PHP] - Buyer Details => Details to Host - label change (mohanraj_109at09) - resolved.
+- 0172839: [Bug PHP] - Logout redirect to login page (mohanraj_109at09) - resolved.
+- 0172840: [Bug PHP] - Listings -> items change in file (mohanraj_109at09) - resolved.
+- 0172841: [Bug PHP] - Post listing - clone date - date picker not working (mohanraj_109at09) - resolved.
+- 0172842: [Bug PHP] - Calendar instead of dropdown in bookit and request page (mohanraj_109at09) - resolved.
+- 0172843: [Bug PHP] - Mail content are not ordered and tags are displaying (mohanraj_109at09) - resolved.
+- 0172844: [Bug PHP] - First radio button not working in booking (mohanraj_109at09) - resolved.
+- 0172845: [Bug CSS] - Filter page category alignment (mohanraj_109at09) - resolved.
+- 0172846: [Bug PHP] - Category filter not working properly (mohanraj_109at09) - resolved.
+[14 issues]
+
+BookorRent - v1.0a7 (Released 2013-11-28) [ View Issues ] 
+======================================================
+
+Seventh alpha version released on Nov 28th, 2013
+
+- 0172804: [Bug CSS] - Book it request alignment not proper (mohanraj_109at09) - resolved.
+- 0172805: [Bug PHP] - Book it validation not working (mohanraj_109at09) - resolved.
+- 0172806: [Bug PHP] - Buyer information show in order list for listing owner (mohanraj_109at09) - resolved.
+- 0172807: [Bug PHP] - Form fields loading while on validation in post listing (mohanraj_109at09) - resolved.
+- 0172822: [Bug CSS] - Book it alignment not proper for both types (mohanraj_109at09) - resolved.
+- 0172823: [Bug PHP] - Post listing - validation not working (mohanraj_109at09) - resolved.
+- 0172824: [Bug CSS] - Post listing - display category & sub category list design issue (mohanraj_109at09) - resolved.
+- 0172825: [Feature Core] - Postgres implementation (mohanraj_109at09) - resolved.
+- 0172826: [Bug PHP] - Settings info need to remove for social marketing plugin (mohanraj_109at09) - resolved.
+- 0172827: [Bug PHP] - Icons missing for some plugins (mohanraj_109at09) - resolved.
+- 0172828: [Bug PHP] - Admin user logins not displaying (mohanraj_109at09) - resolved.
+- 0172829: [Bug PHP] - Chart not working in admin insights (mohanraj_109at09) - resolved.
+- 0172830: [Bug PHP] - Request related links lead to error page in admin end (mohanraj_109at09) - resolved.
+- 0172831: [Bug PHP] - Listing activites message need to change (also removed unwanted status code in app helper) (mohanraj_109at09) - resolved.
+- 0172832: [Bug PHP] - Label changes in view activites, cancel order, feedback to host, feedback to booker (mohanraj_109at09) - resolved.
+[15 issues]
+
+BookorRent - v1.0a6 (Released 2013-11-23) [ View Issues ] 
+======================================================
+
+Sixth alpha version released on Nov 23rd, 2013
+
+- 0172812: [Bug PHP] - Fixed date listing bookit through wallet not working (mohanraj_109at09) - resolved.
+- 0172813: [Feature Core] - Order page design implementation (mohanraj_109at09) - resolved.
+- 0172814: [Feature Core] - Bookit page design implementation (mohanraj_109at09) - resolved.
+- 0172815: [Feature Core] - Listing form design implementation (mohanraj_109at09) - resolved.
+- 0172816: [Feature Core] - Post listing page design implementation (mohanraj_109at09) - resolved.
+- 0172817: [Bug PHP] - Categories images added for each categories (mohanraj_109at09) - resolved.
+- 0172818: [Bug PHP] - Category image and description added in add and edit (mohanraj_109at09) - resolved.
+- 0172819: [Bug PHP] - My bookings page, filter link lead other page instead of loading inside the tab (mohanraj_109at09) - resolved.
+- 0172820: [Bug PHP] - View page image loading issue fixed (mohanraj_109at09) - resolved.
+- 0172821: [Feature Core] - Calendar page design implementation (mohanraj_109at09) - resolved.
+- 0172809: [Feature Core] - Bookings page design implementation (mohanraj_109at09) - resolved.
+- 0172808: [Feature Core] - My listings page design implementation (mohanraj_109at09) - resolved.
+[12 issues]
+
+BookorRent - v1.0a5 (Not Yet Released) [ View Issues ] 
+===================================================
+
+Fifth alpha version released on Nov 15th, 2013
+
+- 0172810: [Bug PHP] - Insights goes error page (mohanraj_109at09) - resolved.
+- 0172811: [Feature Core] - Price per hour, day, week and month popup implementation (mohanraj_109at09) - resolved.
+- 0172784: [Feature Core] - How it works - svg work flow (mohanraj_109at09) - resolved.
+- 0172785: [Feature Core] - Listing view - display form fields value (mohanraj_109at09) - resolved.
+- 0172786: [Feature Core] - Listing view - Rate details should based on types (fixed or flexible) (mohanraj_109at09) - resolved.
+- 0172787: [Feature Core] - Listing design implementation (mohanraj_109at09) - resolved.
+- 0172788: [Feature Core] - Trips => Booking - label change (mohanraj_109at09) - resolved.
+- 0172789: [Feature Core] - Reservation => Orders - label change (mohanraj_109at09) - resolved.
+- 0172790: [Feature Core] - Booked Trips => Bookings - label change (mohanraj_109at09) - resolved.
+- 0172791: [Bug PHP] - How it works - Site service fee from booker - condition check (mohanraj_109at09) - resolved.
+- 0172792: [Feature Core] - Implement related listing list before post the request (mohanraj_109at09) - resolved.
+- 0172793: [Bug PHP] - Completed the request post form with form fields (mohanraj_109at09) - resolved.
+- 0172794: [Bug PHP] - Request post form implemented need to show the related listing (mohanraj_109at09) - resolved.
+- 0172795: [Feature Core] - Buyer info collected from order page implemented (mohanraj_109at09) - resolved.
+- 0172796: [Feature Core] - Buyer info setting implemented when booking collect the data from buyer (mohanraj_109at09) - resolved.
+- 0172797: [Feature Core] - Coupons implementation in user end and added the option in my listing page (mohanraj_109at09) - resolved.
+- 0172798: [Bug PHP] - Coupons plugin added in setting file (mohanraj_109at09) - resolved.
+- 0172799: [Bug PHP] - Listing name added for coupons listing in admin end (mohanraj_109at09) - resolved.
+- 0172800: [Bug PHP] - Coupons issue in admin end (mohanraj_109at09) - resolved.
+- 0172801: [Feature Core] - Coupon plugin implementation (mohanraj_109at09) - resolved.
+- 0172802: [Bug PHP] - Removed the price update on filter list, only filter (mohanraj_109at09) - resolved.
+- 0172803: [Bug PHP] - Activities page goes error page (mohanraj_109at09) - resolved.
+[22 issues]
+
+BookorRent - v1.0a4 (Released 2013-11-13) [ View Issues ] 
+======================================================
+
+Fourth alpha version released on Nov 13th, 2013
+
+- 0172773: [Bug PHP] - price calculation based on custom price per night table (mohanraj_109at09) - resolved.
+- 0172780: [Feature Core] - book unit of my time option booking are implemented (mohanraj_109at09) - resolved.
+- 0172781: [Bug PHP] - No need to show the calendar for book unit of time (mohanraj_109at09) - resolved.
+- 0172782: [Bug CSS] - While select the calendar date price and date alignment corrected (mohanraj_109at09) - resolved.
+- 0172783: [Bug PHP] - With out image view page js issue fixed (mohanraj_109at09) - resolved.
+[5 issues]
+
+BookorRent - v1.0a3 (Released 2013-11-08) [ View Issues ] 
+======================================================
+
+Third alpha version released on Nov 08th, 2013
+
+- 0172768: [Bug PHP] - Listing user status corrected and removed the unwanted status (mohanraj_109at09) - resolved.
+- 0172769: [Bug PHP] - Request implementation in booking page (mohanraj_109at09) - resolved.
+- 0172770: [Feature Core] - Bookit option implemented (mohanraj_109at09) - resolved.
+- 0172771: [Bug PHP] - Time list and price listing based on selected date (mohanraj_109at09) - resolved.
+- 0172772: [Bug PHP] - Categories link removed from masters menu (mohanraj_109at09) - resolved.
+- 0172774: [Bug PHP] - Calendar highlight based on custom price per types (mohanraj_109at09) - resolved.
+- 0172775: [Feature Core] - Guest calendar implemented for booking page (mohanraj_109at09) - resolved.
+- 0172776: [Feature Core] - Image uploaded with fuploader implemented using form helper (mohanraj_109at09) - resolved.
+- 0172777: [Bug PHP] - Advanced name changed in pricing option (mohanraj_109at09) - resolved.
+- 0172778: [Feature Core] - Listing edit implementation (mohanraj_109at09) - resolved.
+- 0172779: [Feature Core] - Requests implementation (mohanraj_109at09) - resolved.
+[11 issues]
+
+BookorRent - v1.0a2 (Released 2013-11-06) [ View Issues ] 
+======================================================
+
+Second alpha version released on Nov 06th, 2013
+
+- 0172767: [Feature Core] - Listing add - fixed dates listing (mohanraj_109at09) - resolved.
+- 0172757: [Feature Core] - Handle masters related fields inside form fields (mohanraj_109at09) - resolved.
+- 0172758: [Feature Core] - Listing add - listing type Public, Unlisted, Unlisted (Except for friends) (mohanraj_109at09) - resolved.
+- 0172759: [Feature Core] - Listing add - free listing (mohanraj_109at09) - resolved.
+- 0172760: [Feature Core] - Listing add - auto approval settings (mohanraj_109at09) - resolved.
+- 0172761: [Feature Core] - Listing add - allow users to request (mohanraj_109at09) - resolved.
+- 0172762: [Feature Core] - Listing add - flexible dates listing (mohanraj_109at09) - resolved.
+- 0172763: [Feature Core] - Listing add page based on chosen category (mohanraj_109at09) - resolved.
+- 0172764: [Feature Core] - In listing page, removed the master related code and checkin and checkout name converted into from and to (mohanraj_109at09) - resolved.
+- 0172765: [Feature Core] - User profile attachment id updated issue fixed (mohanraj_109at09) - resolved.
+- 0172766: [Feature Core] - Booking request implementation (mohanraj_109at09) - resolved.
+[11 issues]
+
+BookorRent - v1.0a1 (Released 2013-10-29) [ View Issues ] 
+======================================================
+
+First alpha version released on Oct 29th, 2013
+
+- 0172752: [Feature Core] - Form fields preview implementation (mohanraj_109at09) - resolved.
+- 0172753: [Feature Core] - Form fields based on type changed into categories (mohanraj_109at09) - resolved.
+- 0172754: [Feature Core] - Form field steps, groups & fields implementation (mohanraj_109at09) - resolved.
+- 0172755: [Feature Core] - Sample record posted for categories & subcategories (mohanraj_109at09) - resolved.
+- 0172756: [Feature Core] - Category & subcategory management (mohanraj_109at09) - resolved.
+[5 issues]

@@ -1,0 +1,56 @@
+.jqueryDatePicker .wrapper {
+  background-color: #fff;
+}
+.jqueryDatePicker .wrapper .prev,
+.jqueryDatePicker .wrapper .next {
+  text-align: center;
+}
+.jqueryDatePicker .wrapper .yearMonth {
+  color: #000;
+  padding: 5px;
+  font-weight: bold;
+}
+.jqueryDatePicker .wrapper .weekdayName,
+.jqueryDatePicker .wrapper .date {
+  color: #000;
+  padding: 5px;
+  text-align: center;
+}
+.jqueryDatePicker .wrapper .date {
+  cursor: pointer;
+}
+.jqueryDatePicker .wrapper .date.sun,
+.jqueryDatePicker .wrapper .date.sat,
+.jqueryDatePicker .wrapper .date.holiday {
+  color: #a00;
+}
+.jqueryDatePicker .wrapper .date.today {
+ background:#752b7e;
+}
+.jqueryDatePicker .wrapper .date.disabled {
+  color: #ddd;
+  background-color: #f7f7f7;
+  cursor: default;
+}
+.jqueryDatePicker .wrapper .date.selected {
+  font-weight: bold;
+  background-color:#752b7e;
+}
+.jqueryDatePicker .wrapper .date.hover {
+  background-color:#752b7e;
+}
+.jqueryDatePicker .wrapper .date.start {
+  color: #fff;
+  background:#752b7e;
+}
+.jqueryDatePicker .wrapper .date.between {
+  background-color:#752b7e;
+}
+.jqueryDatePicker .wrapper .date.point {
+  color: #fff;
+  background-color: #007B9A;
+}
+.jqueryDatePicker .wrapper .date.end {
+  color: #fff;
+  background:#752b7e;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AddAdUnitToPublisher.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="AddCustomChannelToHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="AddUrlChannelToHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="DeleteAdUnitOnPublisher.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="DeleteCustomChannelOnHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="DeleteUrlChannelOnHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GenerateReportForHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GenerateReportForPublisher.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetAccountDataForExistingPublisher.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetAllAdClientsForHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetAllAdClientsForPublisher.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetAllAdUnitsForPublisher.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetAllCustomChannelsForHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetAllUrlChannelsForHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="StartAssociationSession.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="UpdateAdUnitOnPublisher.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="UpdateCustomChannelOnHost.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="VerifyAssociationSession.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+</dwsync>

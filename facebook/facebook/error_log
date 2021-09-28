@@ -1,0 +1,6 @@
+[27-Feb-2017 16:37:04 America/Chicago] PHP Warning:  include_once(../main.php): failed to open stream: No such file or directory in /home2/pofitec/public_html/homestaydnn.laravelecommerce.com/facebook/facebook/face1.php on line 2
+[27-Feb-2017 16:37:04 America/Chicago] PHP Warning:  include_once(): Failed opening '../main.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home2/pofitec/public_html/homestaydnn.laravelecommerce.com/facebook/facebook/face1.php on line 2
+[27-Feb-2017 16:37:04 America/Chicago] PHP Fatal error:  Call to undefined function Redirect() in /home2/pofitec/public_html/homestaydnn.laravelecommerce.com/facebook/facebook/face1.php on line 140
+[27-Feb-2017 16:37:04 America/Chicago] PHP Warning:  include_once(../main.php): failed to open stream: No such file or directory in /home2/pofitec/public_html/homestaydnn.laravelecommerce.com/facebook/facebook/face.php on line 2
+[27-Feb-2017 16:37:04 America/Chicago] PHP Warning:  include_once(): Failed opening '../main.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home2/pofitec/public_html/homestaydnn.laravelecommerce.com/facebook/facebook/face.php on line 2
+[27-Feb-2017 16:37:04 America/Chicago] PHP Fatal error:  Call to undefined function Redirect() in /home2/pofitec/public_html/homestaydnn.laravelecommerce.com/facebook/facebook/face.php on line 129

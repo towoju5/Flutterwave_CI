@@ -1,0 +1,370 @@
+/*-----------Help-center-------*/
+.help-banner
+{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	height: auto;
+	margin-bottom: 0px;
+}
+.help-banner img
+{
+	width:100%;
+}
+.help-banner-inner
+{
+	position:absolute;
+	width: 100%;
+	float:left;
+	top: 50px;
+}
+.help-banner-inner ul.breadcrume
+{
+	margin-left:0;
+}
+.help-banner-top
+{
+	width:100%;
+	float:left;
+	text-align:center;
+background: rgba(0, 0, 0, 0.38);
+    padding: 12px;
+    color: white;
+}
+.help-banner-top h1
+{
+	font-weight: normal;
+	font-size: 28px;
+	
+	color: #fff;
+	margin: 10px 0px;
+}
+#help_submit_page input[type=text]
+{
+	width:100%;
+	height:45px ;
+	
+	font-size:19px ;
+	color:#333 ;
+	border-radius:0 ;
+	padding-top:5px;
+}
+.search-icon
+{
+	text-align:right !important;
+	margin-top:0;
+	position:absolute;
+	right: 30px;
+	top: 72px;
+display:none;
+}
+.help-banner-top .option-fliter 
+{
+    text-align: left;
+}
+.help-banner-top .sear-resu-option li {
+    float: left;
+    width: 50%;
+}
+.help-banner-top .checkbox-1 label
+{
+	
+	font-size:15px;
+}
+.gust-host
+{
+	width: 141px;
+	float:left;
+	background:#0190e2;
+	padding:20px;
+	text-align:center;
+	color:#ffffff;
+	
+	font-size:20px;
+	margin-top:7%;
+	margin-left: 14%;
+display:none;
+}
+.gust-host img
+{
+	width:72px;
+	padding:10px;
+}
+.gust-host-1
+{
+	width: 141px;
+	float:left;
+	background:#0190e2;
+	padding:20px;
+	text-align:center;
+	color:#ffffff;
+	
+	font-size:20px;
+	margin-top:7%;
+	margin-left: 7%;
+display:none;
+}
+.gust-host-1 img
+{
+	width:100%;
+	padding:10px;
+}
+.popular-subjects
+{
+	width:60%;
+	margin:0px auto;
+}
+
+.popular-subjects h1
+{
+	font-weight:normal;
+	font-size:24px;
+	
+	color:#752b7e;
+	margin:15px 0;
+	display:block;
+	text-align:center;
+	text-transform: capitalize;
+}
+
+.helpguest_col3.in a:hover{color:#fff !important;}
+/*-------------------accordion ----------------------*/
+#leftMenu .accordion-group {
+    margin-bottom: 0px;
+    border:0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}    
+
+#leftMenu .accordion-heading {
+    height: auto;
+    border-left: 1px solid #ccc; /* inner stroke */
+	border-right: 1px solid #ccc; 
+	border-top: 1px solid #ccc; 
+    background-color: #ebebeb; /* layer fill content */
+    list-style-type:none;
+}  
+#leftMenu .accordion-group:last-child
+{
+	border-bottom: 1px solid #ccc; 
+}
+#leftMenu .accordion-heading  a{  
+    color: #333333; /* text color */
+    text-decoration:none; 
+	
+	font-weight:normal;
+}
+
+#leftMenu .accordion-heading  a:hover, #leftMenu .accordion-heading .active  {  
+    color:#fff !important;
+		background:#752b7e;
+		
+}
+
+.accordion-body.in
+{
+    height: auto;
+    background: #FFF;
+    border: 1px solid #ccc;
+    width: 100%;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.accordion-inner p, .accordion-inner ul li
+{
+	
+	color:#333;
+	font-size:15px;
+}
+#leftMenu
+{
+	margin-bottom: 3%;
+	width:98%;
+}
+.accordion-heading a
+{
+	font-size:14px;
+	
+	padding-top:12px !important;
+	padding-bottom:12px !important;
+}
+.help-banner-1 {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.banner-form-hide
+{
+	display:none;
+}
+.banner{
+	display: inline-block;
+    position: relative;
+    width: 100%;
+}
+#check1, #check2 {
+	float: left;
+	margin-right: 10px !important;
+}
+.accordion-inner-content p {
+    color: #333333;
+    
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/*--------Help-center-host-------*/
+
+.list-group.panel > .list-group-item {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+.list-group-submenu {
+  margin-left:20px;
+}
+
+#MainMenu .panel
+{
+	background:#752b7e;
+	border:0;
+	border-radius: 0;
+	box-shadow: none;
+color:#fff !important;
+}
+#MainMenu .list-group-item
+{
+	background:none;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom:1px solid #752b7e;
+	padding:10px 15px 10px 5px; 
+	
+	font-size:15px;
+	color:#fff;
+}
+#MainMenu .list-group.panel > .list-group-item
+{
+	border-radius:0;
+}
+
+
+.list-group-item.list-group-item-success:hover{color:#fff !important;}
+/*#MainMenu .collapsed
+{
+	border-bottom:1px solid #0190e2;
+}*/
+#MainMenu .in a
+{
+	font-size:14px !important;
+	
+	border-bottom:1px solid #ccc;
+	
+}
+
+.accordion-inner-content
+{
+	width:100%;
+	float:left;
+	background:#FFF;
+	border:1px solid #e5e5e5;
+	padding:5px 0 20px;
+}
+.accordion-inner-content p
+{
+	color:#333333;
+	
+	font-size:14px;
+	line-height:22px;
+}
+.accordion-inner-content h1
+{
+	
+	font-size:18px;
+	color:#0190e2;
+	font-weight:normal;
+}
+.special
+{
+	
+	font-size:16px;
+	color:#0190e2;
+}
+#leftMenu
+{
+	float:left;
+}
+#MainMenu
+{
+	margin-bottom:50px;
+	float:left;
+	width:100%;
+}
+
+/*--------banner--------*/
+.second-banner-img img, .third-banner-img img
+{
+	height:451px !important;
+}
+
+.banner-imag .carousel-caption 
+{
+    position: absolute;
+    top: 0;
+	width:80%;
+	margin:0 auto;
+}
+.banner-inner-text
+{
+	float:none;
+}
+.banner-inner-text-2
+{
+	top:80px;
+}
+
+
+/* ----------------------fathima---------------------------*/
+@media only screen and (max-width:900px){
+	.help-banner-top { margin-top: -10px;}
+	.helpguest_centercol6 .help-banner-top {
+    margin-top: 10px;}
+}
+@media only screen and (max-width:835px){
+	.help-banner-top { margin-top: -16px;}
+}
+
+@media only screen and (max-width:800px){
+	.help-banner-top { margin-top:8px; padding:4px 12px;}}
+@media only screen and (max-width:768px){
+	.help-banner-top { margin-top: -16px;}
+	.help-banner-top ul{margin-left: 65px;}	
+@media only screen and (max-width:767px){
+	.help-banner-top {  margin-top:8px; padding:4px 12px;}}	
+@media only screen and (max-width:735px){
+	.help-banner-top {  margin-top:10px; padding:4px 12px;}
+	.help-banner-top h1{font-size: 18px;}
+	#help_submit_page input[type=text] {height: 22px;}	
+	#help_submit_page input[type=text] { font-size: 12px;}
+	.help-banner-top ul{margin-left: 45px; margin-top: -8px;}		}
+@media only screen and (max-width:735px){
+	.help-banner-top { margin-top: -16px;}}	
+@media only screen and (max-width:1112px){
+	#help_submit_page input[type=text] {
+    height: 35px;
+    font-size: 16px;}
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+		

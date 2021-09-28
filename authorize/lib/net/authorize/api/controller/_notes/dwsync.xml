@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ARBCancelSubscriptionController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="ARBCreateSubscriptionController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="ARBGetSubscriptionListController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="ARBGetSubscriptionStatusController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="ARBUpdateSubscriptionController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="AuthenticateTestController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="CreateCustomerPaymentProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="CreateCustomerProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="CreateCustomerProfileFromTransactionController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="CreateCustomerProfileTransactionController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="CreateCustomerShippingAddressController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="CreateFingerPrintController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="CreateTransactionController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="DeleteCustomerPaymentProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="DeleteCustomerProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="DeleteCustomerShippingAddressController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetBatchStatisticsController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetCustomerPaymentProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetCustomerProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetCustomerProfileIdsController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetCustomerShippingAddressController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetHostedProfilePageController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetSettledBatchListController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetTransactionDetailsController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetTransactionListController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="GetUnsettledTransactionListController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="IsAliveController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="LogoutController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="MobileDeviceLoginController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="MobileDeviceRegistrationController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="SendCustomerTransactionReceiptController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="UpdateCustomerPaymentProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="UpdateCustomerProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="UpdateCustomerShippingAddressController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="UpdateSplitTenderGroupController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+<file name="ValidateCustomerPaymentProfileController.php" server="vacationhosting.com//public_html/" local="131574506400000000" remote="131574506400000000" />
+</dwsync>

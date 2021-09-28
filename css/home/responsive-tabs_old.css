@@ -1,0 +1,83 @@
+﻿
+ul.rtabs
+{
+    text-align:left; 
+    font-size:0;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+        
+ul.rtabs li
+{
+    margin:0;
+    margin-right:4px; 
+    padding:0;
+    display:inline;
+}
+        
+ul.rtabs li a
+{
+    padding: 8px;
+    display:inline-block;   
+    font-weight:normal;
+    font-size:16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height:34px;
+    text-decoration: none;
+    color:#222;
+  	 background:rgba(220,217,209,0.9);
+    outline:none;
+    border:1px solid #CCC;
+    border-bottom:none;
+    position:relative;
+	width:16.36%; text-align: left;
+	
+}
+div.panel-container
+{
+    border:1px solid #DDD; 
+    border-radius:0 2px 4px 2px;
+    background:rgba(220,217,209,0.9); min-height: 90px !important;
+    position:relative;    
+    padding:0px; margin:0px;
+    outline:none;
+}
+    
+div.panel-container > div
+{
+    padding:30px 26px;
+
+    display: block;
+    margin:0px;
+}  
+
+
+.cont_BOX_5 { margin-bottom: 100PX;}
+@media only screen and (min-width:769px) and (max-width:3600px){
+	.nav-tabs > li > a{margin-right:5px;}
+	.nav-tabs > li:last-child a{margin-right:0;}
+}	
+@media (min-width: 0px) and (max-width: 767px){
+.contBox { margin-top: 30px; padding: 0px;}
+.rtabs li a{padding:10px;}
+.rtabs li a span{display:none;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.rtabs li a{padding:10px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.rtabs li a{padding:5px; margin-right:2px;}
+	.rtabs li a span, .rtabs li.active a span{padding-left:5px;}
+	
+}
+
+
+
+@media only screen and (min-width:1px) and (max-width:400px){
+	.rtabs li a{height:40px;}	
+	.rtabs li a img{max-height:22px;}
+	.rtabs li a img{max-width:30px;}
+}

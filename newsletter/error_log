@@ -1,0 +1,7 @@
+[18-Jan-2017 15:27:43 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home2/pofitec/public_html/homestaydnn.laravelecommerce.com/newsletter/registeration20.php on line 11
+[06-Dec-2020 22:54:34 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/occupyproperties/public_html/newsletter/registeration20.php on line 21
+[07-Dec-2020 00:25:09 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/occupyproperties/public_html/newsletter/registeration1.php on line 15
+[07-Dec-2020 22:39:31 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/occupyproperties/public_html/newsletter/registeration26.php on line 21
+[10-Mar-2021 17:52:23 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/occupyproperties/public_html/newsletter/registeration30.php on line 21
+[10-Mar-2021 17:52:43 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/occupyproperties/public_html/newsletter/registeration30.php on line 21
+[10-Mar-2021 17:53:12 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/occupyproperties/public_html/newsletter/registeration1.php on line 15

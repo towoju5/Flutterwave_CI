@@ -1,0 +1,284 @@
+.invit-banner
+{
+	background: url("../../images/invite.jpg");
+	    color: #ffffff;
+    text-align: center;
+    min-height: 300px;
+    padding-top: 0;
+    width: 100%;
+    
+    float: left;
+}
+.para_al p, .para_fbbtn p
+{
+font-size: 15px;
+padding: 1%;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.para_al, .para_fbbtn{width: 100%;    float: left;}
+
+.para_a2 p
+{
+	font-size: 15px !important;
+padding: 2px !important;
+margin: 5px !important;
+}
+
+.inv_img
+{
+	width: 100px;
+    border-radius: 50%;
+    border: 2px solid #696969;
+    margin-right: 26px;
+	margin-bottom: 20px;
+margin-top: 20px;
+overflow:hidden;
+margin-left: 10px;
+}
+
+
+.roundedCorners
+{
+border: 1px solid #f2f2f2;
+width: 100%;
+text-align: center;
+
+}
+
+.samp_td{
+vertical-align: middle !important;}
+
+.samp_td_img{
+display: inline-block;}
+
+.invit-banner h1
+{
+	font-size: 40px;
+   
+    margin-bottom: 0;
+    text-transform: capitalize;
+	text-align: center;
+    margin-top: 9%;
+	width:100%;
+	float:left;
+}
+.credit-content 
+{
+	font-size: 29px;
+    margin: 0;
+    padding: 3%;
+}
+.visit-container
+{
+	width: 80%;
+	padding: 0;
+    float: left;
+    margin: 0 10%;
+	
+	
+}
+.credit-socialbtn{width: 100%;
+    float: left;
+    padding: 0 3% 3%;}
+	
+.credit-socialbtn #google	{
+width: 50%;
+    float: left;
+    margin-bottom: 0;	
+	
+}
+.invite-mail a:focus
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.invite-send
+{
+	border-color: #752b7e;
+    border-bottom-color: #752b7e;
+    background-color: #752b7e;
+    color: #fff;
+padding: 0;
+width: 25%;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.invite-mail input[type=text], .invite-mailfb input[type=text], .invite-mailfb input[readonly]{margin-bottom:0; width:70%; float:left;}
+.invite-mail input[type=text]:focus, .invite-mailfb input[type=text]:focus, .invite-mailfb input[readonly]:focus{outline:none; border-color:#CCC}
+.invite-mail input[type=text], .invite-mailfb input[type=text], .invite-send, .invite-sendfb, .invite-mailfb input[readonly]{height:40px;     margin-right: 0; float:left;}
+
+
+.facebook_inside_btn
+{
+width: 92px;
+padding: 6px;
+margin: 0px;
+border: none;
+background-color: #752b7e;
+box-shadow: none;
+color:white;
+font-size: 17px;
+font-weight: bold;
+}
+
+#fb_ibut .facebook_inside_btn 
+{
+	background-color: #3B5998;
+	box-shadow: none;
+	font-weight: bold;
+}
+
+.invite-sendfb i.fa.fa-facebook{position: relative;  top: 2px;     left: 3px; }
+.invite-sendfb
+{
+	border-color: #3B5998;
+    border-bottom-color: #263a63;
+    background-color: #3B5998;
+    color: #ffffff;
+    padding: 0 2px;
+    position: absolute;
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+}
+.col-md-8.top-area-col, .col-md-4.top-area-col{padding:0; float:left;}
+.col-md-8.top-area-col ul{float:left; width:100%;}
+.col-md-4.top-area-col{padding-left:2%;}
+
+.invite-sendfb:hover
+{
+	text-decoration: none;
+color: #ffffff !important;
+
+}
+.invite-send:hover
+{
+text-decoration: none;
+color: #ffffff;
+background: #;
+}
+.input-field
+{	position: relative;
+	border: 1px solid #c4c4c4 ;
+	border-right:none ;
+	width: 75% ;
+    height: 40px ;
+    padding: 5px 0px 0px 10px ;
+	margin-right: 0px ;
+}
+.input-field1
+{
+	position: relative;
+	border: 1px solid #c4c4c4 ;
+	border-right:none ;
+	width: 70% !;
+    height: 40px ;
+    padding: 5px 0px 0px 10px ;
+	margin-right: 0px ;
+	background-color: #eeeeee ;
+}
+.input-field:focus
+{
+border: 1px solid #c4c4c4;
+}
+.clear
+{
+	clear: both;
+}
+.input-field,.input-field1::-webkit-input-placeholder {
+  
+    font-size: 16px;
+   font-weight: normal;
+   padding: 5px 0px 0px 10px;
+}
+
+.input-field,.input-field1:-moz-placeholder { /* Firefox 18- */
+  
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px 0px 0px 10px;
+}
+
+.input-field,.input-field1::-moz-placeholder {  /* Firefox 19+ */
+  
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px 0px 0px 10px;
+}
+
+.input-field,.input-field1:-ms-input-placeholder {  
+  
+     font-size: 16px;
+    font-weight: normal;
+    padding: 5px 0px 0px 10px;
+}
+.invite-tweeter
+{
+    color:#565a5c;
+	font-size: 16px;
+	padding-left: 5px;
+}
+.credit-point
+{
+	margin-top: 0px;
+	font-size: 30px;
+	color:#565a5c;
+	text-transform: capitalize;
+    
+}
+#invpoint{    padding: 0 3% 3%;}
+.credit-socialbtn #google .invite-mail{width: 100%;    float: left;}
+.invite-mailfb{width:50%; float:left;}
+
+.pic11{
+    width:120px;
+    height:120px;
+    border:2px solid #f2f2f2;
+    border-radius: 50%;
+    padding:0px;
+    margin: 0 auto 25px;
+}
+.pic11 img{
+    width: 100%;
+    height: auto;
+    border-radius:50%;
+}
+
+
+.invi_but
+{
+    border-color: #ff5a5f;
+    border-bottom-color: #e00007;
+    background-color: #ff5a5f;
+    color: #fff;
+    width: 219px;
+    font-size: 17px;
+box-shadow: none;
+
+}
+
+
+.cont {
+    padding: 20px 0px 25px 100px;
+}
+.visit-container h1
+{
+font-size: 2.5em !important;
+}
+
+
+.visit-container h4
+{
+font-size: 1.5em!important;
+}
+
+.ptxt
+{
+font-size: 16px;
+margin: 25px;
+}
