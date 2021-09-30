@@ -18,13 +18,13 @@ class User extends MY_Controller {
 				'email',
 				'url' 
 		) );
-		$this->load->library ( array (
-				'encrypt',
-				'form_validation',
-				'linkedin',
-				'session',
-				'email'
-		) );
+		// $this->load->library ( array (
+		// 		'encrypt',
+		// 		'form_validation',
+		// 		'linkedin',
+		// 		'session',
+		// 		'email'
+		// ) );
 		$this->load->model ( array (
 				'user_model',
 				'product_model',
@@ -947,7 +947,8 @@ $reg= array('username' => $username, 'email'=> $email, 'cfmurl'=>$cfmurl, 'email
 				
 				$this->user_model->update_details( USERS, $newdata, $condition );
 				if ($remember != '') {
-					$userid = $this->encrypt->encode( $checkUser->row ()->id );
+					// $userid = $this->encrypt->encode( $checkUser->row ()->id );
+					$userid = 2;
 					$cookie = array (
 							'name' => 'admin_session',
 							'value' => $userid,

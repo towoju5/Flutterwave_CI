@@ -359,7 +359,7 @@ var datefrom = $("#datefrom").val();
 }
 
 function signin() {
-	
+	// alert();
 	var password_msg = $("#pass_msg").val();
 	var min_password = $("#min_pass").val();
 	var email = $("#email_add").val();
@@ -380,7 +380,9 @@ function signin() {
         
         $("#remember").is(":checked") && (a ="yes"), $.ajax({
             type: "POST",
-            url:"https://occupyproperties.com/site/user/login_user",			
+            // url:"https://occupyproperties.com/site/user/login_user",			
+            // url:"http://localhost/site/user/login_user",	
+            url: baseURL + "site/user/login_user",		
             crossDomain: true,
             data: {
                 email: em,

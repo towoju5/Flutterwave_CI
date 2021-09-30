@@ -350,7 +350,7 @@ function register_user() {
 
 function signin() {
 	
-	var password_msg = $("#pass_msg").val();
+    var password_msg = $("#pass_msg").val();
 	var min_password = $("#min_pass").val();
 	var email = $("#email_add").val();
 	var bpath = $("#bpath").val();

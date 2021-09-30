@@ -11,10 +11,10 @@ header
 </style>
 
 <?php 
-//print_r($this->session->userdata('language_code'));	
+// print_r($this->session->userdata('language_code'));	
 $this->load->view('site/templates/header');
 
-//print_r($_SESSION);
+// print_r($_SESSION);
 ?>
 
 <link rel="stylesheet" href="css/site/themes-smoothness-jquery-ui.css"  type="text/css"/>

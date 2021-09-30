@@ -730,8 +730,8 @@ class My_Model extends CI_Model {
 	public function get_newsletter_template_details($apiId='')
 		{ 
 			$twitterQuery = "select * from ".NEWSLETTER." where id=".$apiId. " AND status='Active'";
-			$twitterQueryDetails  = mysql_query($twitterQuery);
-            return $twitterFetchDetails = mysql_fetch_assoc($twitterQueryDetails);
+			$twitterQueryDetails  = mysqli_query($twitterQuery);
+            return $twitterFetchDetails = mysqli_fetch_assoc($twitterQueryDetails);
 	   }
 	   
 	//visiters log
