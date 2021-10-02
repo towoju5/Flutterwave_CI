@@ -30,18 +30,6 @@ $(document).ready(function () {
     $('#credit_card_forms_stripe').hide();
     $('#pay-with-stripe').hide();
     $('.pad').hide();
-	
-	
-/*     $('.heading').click(function () {
-        $(this).next('.pad').slideToggle();
-        if($(this).find('.span1').attr('id') == 'yes') {
-            $(this).find('.span1').attr('id', '').html('<i class="fa fa-chevron-down" aria-hidden="true"></i>');
-        } else {
-            $(this).find('.span1').attr('id', 'yes').html('<i class="fa fa-chevron-down" aria-hidden="true"></i>');
-        }
-    }); */
-	
-	
 });
 </script>
 <?php } ?>
@@ -134,48 +122,25 @@ $(document).ready(function () {
 								</form>
 							</li>
 					<?php } ?>
-					
-							
-							
-
 							<!-- wallet  payment-->
-							
 							<li  <?php if($userWallet->row()->referalAmount<=0) { echo "style='display:none;'" ;}?> >
-
-							
-							
-								<input type="checkbox"  onclick="myWallet();" id="wallet_pay"  name="wallet_pay"></checkbox>
-								
-								
-								
-								
-								
+								<input type="checkbox"  onclick="myWallet();" id="wallet_pay"  name="wallet_pay"></checkbox>	
 								<label for='wallet_pay'><span class="credit-card" style="text-transform: capitalize;"><?php if($this->lang->line('Use_Wallet') != '') { echo stripslashes($this->lang->line('Use_Wallet')); } else echo "Use Wallet";?> ( <?php echo $currencySymbol;  echo convertCurrency($userWallet->row()->referalAmount_currency,$this->session->userdata('currency_type'),$userWallet->row()->referalAmount);?> )</span></label>
-
 								<form id="wallet_form" name="myForm" action="site/checkout/PaymentWallet"   method="POST" accept-charset="UTF-8">
-
 									<input type="hidden" name="wallet" id="w_wallet" value="<?php  echo convertCurrency($userWallet->row()->referalAmount_currency,$datavalues->row()->currencycode,$userWallet->row()->referalAmount);?>" />
 									<input type="hidden" name="total_price" id="w_price" value="<?php echo $datavalues->row()->totalAmt; ?>" />
 									<input type="hidden" name="sumtotal" id="w_sum"  value="<?php echo $datavalues->row()->totalAmt; ?>" />
 									<input type="hidden" name="indtotal" id="w_ind"  value="<?php echo $datavalues->row()->totalAmt; ?>" />	
-
 									<input type="hidden" value="<?php  echo $datavalues->row()->currencycode;  ?>" id="_price_val_authorize" name="currencycode" />
 									<input type="hidden" value="<?php echo $product->id; ?>" name="booking_rental_id" />
-
 									<input type="hidden" name="enquiryid" value="<?php echo $this->uri->segment(4); ?>" />
-
 								</form>	
-
 								<p id="w_totals"></p>
 								<p id="w_disper"></p>
 								<p id="w_disamount"></p>
 
 							</li>
-							
 							<!-- wallet payment ends -->
-
-						
-							
 							<?php if($creditCard_payment !='Disable') { ?>
 							<li>
 								<input type="radio" checked="checked" onclick="myFunction();"  name="pay"><span class="credit-card" style="text-transform: capitalize;"><?php if($this->lang->line('Credit card') != '') { echo stripslashes($this->lang->line('Credit card')); } else echo "Credit card";?></span>

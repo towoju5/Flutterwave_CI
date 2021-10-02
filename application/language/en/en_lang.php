@@ -341,6 +341,8 @@ $lang['World-class security & communications features mean you never have to acc
 $lang['Secure Payments']='Secure Payments'; 
 $lang['Our fast, flexible payment system puts money in your bank account 24 hours after guests check in']='Our fast, flexible payment system puts money in your bank account 24 hours after guests check in'; 
 $lang['Book it using Paypal']='Book it using Paypal'; 
+/*adding Flutterwave*/
+$lang['Flutterwave']='Flutterwave'; 
 $lang['Property Reviews']='Property Reviews'; 
 $lang['Add Notes']='Add Notes'; 
 $lang['Create']='Create'; 
