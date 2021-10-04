@@ -1180,10 +1180,43 @@ $this->data['query'] = $this->experience_checkout_model->view_payment_payumoney(
 
 	//10/1
 	public function PaymentFlutterwave(){
-		$email = $this ->input ->post('f_email');
-		$amount = $this ->input ->post('f_amount');
-		var_dump($email);
-		var_dump($amount);
+		// $email = $this ->input ->post('f_email');
+		// $amount = $this ->input ->post('f_amount');
+
+
+
+		$stand_data=array(
+			"tx_ref"=>"hooli-tx-1920bbtytty",
+			"amount"=>"100",
+			"currency"=>"NGN",
+			"redirect_url"=>"https://api.flutterwave.com/v3/payments",
+			"payment_options"=>"card",
+			"meta" => array(
+			   "consumer_id"=>23,
+			   "consumer_mac"=>"92a3-912ba-1192a"
+			),
+			"customer"=> array(
+			   "email"=>"adekoolcomputers@yahoo.com",
+			   "phonenumber"=>"7702568162",
+			   "name"=>"Ganiyu Adebayo"
+			),
+			"customizations"=> array(
+			   "title"=>"Pied Piper Payments",
+			   "description"=>"Middleout isn't free. Pay the price",
+			   "logo"=>"https://cdn.searchenginejournal.com/wp-content/uploads/2021/09/td1x-61483a2bba73b-sej.webp"
+			)
+			);
+		
+		$data = array(
+			'amount'=>"10",
+			'customer_email' => "adekoolcomputers@yahoo.com",
+			'redirect_url'=>base_url("site/experience/confirmpayment/"),
+			'payment_plan'=>"card"
+		);
+
+		require_once('./flutterwave/lib/flutterwave_lib.php');
+		$response = Flutterwave_lib::create_payment($data);
+		var_dump($response);
 		exit;
 	}
 

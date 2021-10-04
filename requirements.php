@@ -8,8 +8,8 @@ These are the file and folder names you might need for the Flutterwave Payment G
 5. application/views/site/order/host_success.php
 6 .application/models/checkout_model.php
 7. application/controllers/site/checkout.php
-8. public_html/ commonsettings/fc_payment_settings.php
-9. application/controllers/site/experience_checkout.php
+8. public_html/ commonsettings/fc_payment_settings.php ✅
+9. application/controllers/site/experience_checkout.php✅
 10. application/models/experience_checkout_model.php
 11. application/views/site/experience/confirmpayment.php
 12. application/views/site/experience/payment.php 
@@ -135,6 +135,6 @@ $data=array(
 			"customizations"=> array(
 			   "title"=>"Pied Piper Payments",
 			   "description"=>"Middleout isn't free. Pay the price",
-			   "logo"=>"https://assets.piedpiper.com/logo.png"
+			   "logo"=>"https://cdn.searchenginejournal.com/wp-content/uploads/2021/09/td1x-61483a2bba73b-sej.webp"
 			)
 			);
