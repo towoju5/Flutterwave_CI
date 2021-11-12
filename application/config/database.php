@@ -50,10 +50,10 @@ $active_group = 'default';
 $active_record = TRUE;
 
 
-	$db['default']['hostname'] = $hostName;
-	$db['default']['username'] = $dbUserName;
-	$db['default']['password'] = $dbPassword;
-	$db['default']['database'] = $databaseName;
+	$db['default']['hostname'] = $hostName = "localhost";
+	$db['default']['username'] = $dbUserName = "root";
+	$db['default']['password'] = $dbPassword = "";
+	$db['default']['database'] = $databaseName = "flutterwave";
 	
 	define("DBB_HOST",		$hostName);
 	define("DBB_NAME",		$databaseName);
